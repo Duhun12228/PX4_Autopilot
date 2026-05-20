@@ -5,6 +5,10 @@
 #####
 publications:
 
+  - topic: /fmu/out/actuator_motors
+    type: px4_msgs::msg::ActuatorMotors
+    rate_limit: 50.
+
   - topic: /fmu/out/register_ext_component_reply
     type: px4_msgs::msg::RegisterExtComponentReply
 

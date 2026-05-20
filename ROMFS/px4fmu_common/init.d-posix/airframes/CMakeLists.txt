@@ -88,6 +88,7 @@ px4_add_romfs_files(
 	4019_gz_x500_gimbal
 	4020_gz_tiltrotor
 	4021_gz_x500_flow
+	4022_gz_standard_vtol_mono_cam
 
 	6011_gazebo-classic_typhoon_h480
 	6011_gazebo-classic_typhoon_h480.post
@@ -121,4 +122,6 @@ px4_add_romfs_files(
 	70001_gz_atmos_dual
 
 	# [22000, 22999] Reserve for custom models
+	22000_gz_explorer_rover
+	22001_gz_explorer_ackermann_rover
 )
