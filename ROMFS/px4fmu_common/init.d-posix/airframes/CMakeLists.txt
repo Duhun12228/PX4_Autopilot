@@ -124,4 +124,5 @@ px4_add_romfs_files(
 	# [22000, 22999] Reserve for custom models
 	22000_gz_explorer_rover
 	22001_gz_explorer_ackermann_rover
+	22002_gz_dual_pad_rover
 )
